@@ -1,0 +1,55 @@
+/**
+ * Ajax Load More Custom CSS
+ **/
+.posts-container-mini {
+    background: none !important;
+    border: 0 !important;
+}
+
+.alm-listing {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+}
+
+.alm-btn-wrap {
+    margin-top: 30px;
+}
+
+button.alm-load-more-btn {
+    font-family: "bebas_neuebold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: 2px solid #333;
+    padding: 0 26px;
+    height: 40px;
+    min-width: 150px;
+    line-height: 36px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 0;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    margin-right: 8px;
+    margin-bottom: 24px;
+    background-color: #333333;
+    border-color: #333333 !important;
+    color: #F3F3F3;
+    cursor: pointer;
+}
+
+button.alm-load-more-btn:hover {
+    background-color: #CCCCCC;
+    color: #FFF;
+    border-color: #CCCCCC !important;
+}
+
+button.alm-load-more-btn.done {
+    background-color: #333333;
+    opacity: 0.2;
+}
+
+button.alm-load-more-btn.done:hover {
+    border-color: #333333 !important;
+}

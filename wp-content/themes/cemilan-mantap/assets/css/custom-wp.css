@@ -1,0 +1,79 @@
+/*form#pilih-seleramu input.category_cemilan_select.selected{
+	border-color: #ccc;
+}*/
+.gurihmantap-header span{
+	color: #fff;
+}
+
+.comments input[type="email"], .comments input[type="url"]{
+	border: 1px solid #ccc !important;
+	background: #fff;
+	width: 100%;
+	height: 50px;
+	padding-left: 20px;
+	font-weight: 500;
+	margin-bottom: 24px;
+	border-radius: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+// .cm-register-form-wrap {
+// 	display: none;
+// }
+
+.photo-upload-container input.files_data{
+	visibility: hidden;
+}
+
+.photo-upload-container .cm-uploader-inner img{
+	cursor: pointer;
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+.cm-preview-wrapper{
+	overflow: hidden;
+	/*height: 100px;*/
+}
+.cm-uploader p{
+	color: #666;
+	font-size: 10px;
+	padding:5px 0 5px 0;
+}
+.cm-uploader-inner{
+	width: 77px;
+	height: 65px;
+	text-align: center;
+	display: block;
+	vertical-align: middle;
+	background: #E6E6E6;
+	cursor: pointer;
+	border: solid 1px #ccc;
+	transition: all 0.5s ease;
+}
+.cm-uploader-inner:hover{
+	background: #fff;
+}
+.cm-uploader-preview{
+	margin-bottom: 10px;
+}
+.cm-upload-del{
+	display: none;
+	float:right;
+	position:absolute;
+	right:0px;
+	top:-10px;
+}
+@media (max-width:767px){
+	.home.page-template .foundry_modal.no-bg.reveal-modal{
+		padding-left:0;
+		padding-right:0;
+		max-width: 100%;
+		width:100%;
+	}
+	.home.page-template .modal-screen.reveal-modal{
+		opacity:0.9;
+		background: #000;
+	}
+}
